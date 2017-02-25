@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 3066)
+    (start_pass_no 10867)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -41,10 +41,16 @@
     (attach off)
   )
   (via 
+    "Via[0-1]_600:400_um-power" "Via[0-1]_600:400_um" power
+  )
+  (via 
     "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
   )
   (via 
     "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via_rule
+    power "Via[0-1]_600:400_um-power"
   )
   (via_rule
     default "Via[0-1]_600:400_um"
@@ -63,19 +69,31 @@
     )
   )
   (class "kicad_default"
-    +5V GND "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(C3-Pad2)" /TP1 /TP2 "Net-(D2-Pad1)"
-    "Net-(D3-Pad1)" "Net-(D5-Pad2)" "Net-(D5-Pad1)" "Net-(D6-Pad1)" /VO /RS /RW /CS
-    "Net-(DS1-Pad7)" "Net-(DS1-Pad8)" "Net-(DS1-Pad9)" "Net-(DS1-Pad10)" /DB4 /DB5 /DB6 /DB7
-    /A /K /SCL "Net-(IC1-Pad3)" /AREF /SDA /TEST4 /TEST3
-    /TEST2 /TEST1 "Net-(P1-Pad5)" "Net-(P2-Pad5)" "Net-(P3-PadB8)" "Net-(P3-PadA5)" "Net-(P3-PadA8)" "Net-(P3-PadB5)"
-    "Net-(P4-Pad5)" "Net-(P5-Pad4)" "Net-(P5-Pad6)" "Net-(P6-Pad4)" /TEST5 /TEST6 "Net-(P7-Pad5)" "Net-(P8-Pad4)"
-    "Net-(P8-Pad6)" "Net-(P9-PadB8)" "Net-(P9-PadA5)" "Net-(P9-PadA8)" "Net-(P9-PadB5)" "Net-(P10-Pad5)" "Net-(P11-Pad5)" /P3
-    "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(R3-Pad1)" "/VOL_HALF" "Net-(R19-Pad1)" "Net-(R19-Pad2)" "Net-(U1-Pad13)" "Net-(U2-Pad6)"
-    "/TO_ADC" "Net-(IC1-Pad1)" "Net-(D1-Pad1)"
+    GND /TP1 /TP2 "Net-(D2-Pad1)" "Net-(DS1-Pad7)" "Net-(DS1-Pad8)" "Net-(DS1-Pad9)" "Net-(DS1-Pad10)"
+    /TEST4 /TEST3 /TEST2 /TEST1 "Net-(P1-Pad5)" "Net-(P2-Pad5)" "Net-(P3-PadB8)" "Net-(P3-PadA5)"
+    "Net-(P3-PadA8)" "Net-(P3-PadB5)" "Net-(P4-Pad5)" "Net-(P5-Pad4)" "Net-(P5-Pad6)" /TEST5 /TEST6 "Net-(P7-Pad5)"
+    "Net-(P8-Pad4)" "Net-(P8-Pad6)" "Net-(P9-PadB8)" "Net-(P9-PadA5)" "Net-(P9-PadA8)" "Net-(P9-PadB5)" "Net-(P10-Pad5)" "Net-(P11-Pad5)"
+    "Net-(D1-Pad1)" "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(C3-Pad2)" "Net-(C5-Pad1)" /AREF /MISO
+    /SCK /MOSI /RESET "Net-(CONN2-Pad2)" "Net-(CONN2-Pad3)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(DS1-Pad16)"
+    /D4 /D5 /D6 /D7 /IO11 /IO12 /A5 /A4
+    /A3 /IO13 /IO10 /IO9 /D3 /D2 /D1 /D0
+    "/RX_LED" "/TX_LED" /HWB /D+ "/D-" "/VOL_HALF" "Net-(R19-Pad1)" "Net-(R19-Pad2)"
+    /IO8 /A0 /A1 /A2 "Net-(U2-Pad6)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class power
+    +5C
+    (clearance_class power)
+    (via_rule power)
+    (rule
+      (width 400.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
