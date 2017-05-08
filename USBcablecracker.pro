@@ -1,4 +1,4 @@
-update=Fri Feb 24 22:13:34 2017
+update=2017年05月06日 星期六 13时56分00秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,16 +60,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=USBcablecracker
-LibName32=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/TransistorParts
-LibName33=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/Sensors
-LibName34=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/RepeaterParts
-LibName35=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/RF_OEM_Parts
-LibName36=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/PowerComponents
-LibName37=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/Passives
-LibName38=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/PMOD
-LibName39=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/MiscellaneousDevices
-LibName40=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/Microprocessors
-LibName41=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/Diodes
-LibName42=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/DataStorage
-LibName43=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/Connectors
-LibName44=/home/dan/Documents/Libraries/KiCad-Libraries/symbols/Amplifiers
