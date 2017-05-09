@@ -3,7 +3,7 @@
   (general
     (links 149)
     (no_connects 0)
-    (area 49.924999 49.924999 150.075001 100.075001)
+    (area 47.6808 47.625 152.53256 101.955)
     (thickness 1.6)
     (drawings 39)
     (tracks 1259)
@@ -1921,7 +1921,7 @@
   )
 
   (module USBcablecracker:donotcare (layer B.Cu) (tedit 0) (tstamp 58FE1CD8)
-    (at 78.8 66.8 180)
+    (at 78.9 66.6 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )

@@ -1,4 +1,4 @@
-update=2017年05月06日 星期六 13时56分00秒
+update=Tue May  9 17:56:03 2017
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -60,3 +58,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=USBcablecracker
+[general]
+version=1
