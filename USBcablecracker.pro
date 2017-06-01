@@ -1,4 +1,4 @@
-update=Tue May  9 17:56:03 2017
+update=2017年05月30日 星期二 15时08分53秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,18 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -58,5 +70,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=USBcablecracker
-[general]
-version=1
