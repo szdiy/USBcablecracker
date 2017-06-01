@@ -3,9 +3,9 @@
   (general
     (links 156)
     (no_connects 0)
-    (area 49.924999 49.924999 150.075001 100.075001)
+    (area 47.6808 47.625 152.43256 102.075)
     (thickness 1.6)
-    (drawings 40)
+    (drawings 41)
     (tracks 1515)
     (zones 0)
     (modules 57)
@@ -2768,6 +2768,9 @@
     )
   )
 
+  (gr_text V0.5 (at 54.75 98.25) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text v0.5 (at 103.7 88.3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
