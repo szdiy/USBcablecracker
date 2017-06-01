@@ -5,8 +5,8 @@ Schematic
 Screenshots
 ------------
 
-![](https://github.com/danfei/USBcablecracker/raw/master/images/v4f.png)
-![](https://github.com/danfei/USBcablecracker/raw/master/images/v4b.png)
+![](https://github.com/danfei/USBcablecracker/raw/master/images/v5f.png)
+![](https://github.com/danfei/USBcablecracker/raw/master/images/v5b.png)
 
 License
 ------------
