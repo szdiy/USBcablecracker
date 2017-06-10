@@ -11,8 +11,8 @@ Schematic
 
 PCB
 ------------
-![](https://github.com/danfei/USBcablecracker/raw/master/images/v5f.png)
-![](https://github.com/danfei/USBcablecracker/raw/master/images/v5b.png)
+![](https://github.com/danfei/USBcablecracker/raw/master/images/v1f.png)
+![](https://github.com/danfei/USBcablecracker/raw/master/images/v1b.png)
 
 Photo
 ------------
