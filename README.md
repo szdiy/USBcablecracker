@@ -9,6 +9,10 @@ Schematic
 ------------
 [PDF][schem]
 
+BOM
+------------
+[CSV][bom]
+
 PCB
 ------------
 ![](https://github.com/danfei/USBcablecracker/raw/master/images/v1f.png)
@@ -29,4 +33,5 @@ r@szdiy.org
 Where to buy
 ------------
 
-[schem]:https://github.com/danfei/USBcablecracker/raw/master/USBcablecracker.pdf
+[schem]:https://github.com/danfei/USBcablecracker/raw/master/hardware/USBcablecracker.pdf
+[bom]:https://github.com/danfei/DIYduino/raw/master/hardware/manufature/USBcablecracker_bom.csv

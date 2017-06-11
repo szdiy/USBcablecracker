@@ -1,0 +1,51 @@
+### Module positions - created on Sat Jun 10 17:00:52 2017 ###
+### Printed by Pcbnew version kicad 4.0.5+dfsg1-4
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val              Package                                PosX       PosY       Rot  Side
+C1        15P              C_0603_HandSoldering               126.8195   -55.1419  180.0000  bottom
+C2        1nF              C_0603_HandSoldering               112.1000   -86.8000  270.0000  bottom
+C3        1nF              C_0603_HandSoldering               110.5000   -88.2000   90.0000  bottom
+C4        1nF              C_0603_HandSoldering                98.2000   -74.0000   90.0000  bottom
+C5        15P              C_0603_HandSoldering               124.2195   -58.4419   90.0000  bottom
+C6        100nF            C_0603_HandSoldering               115.6000   -83.2000  180.0000  bottom
+C7        1uF              C_0603_HandSoldering               113.7000   -69.3000  270.0000  bottom
+C8        22uF             Tantalum_Case-A_EIA-3216-18_Wave   133.2000   -58.1000  180.0000  bottom
+C9        100nF            C_0603_HandSoldering               133.2500   -60.5000    0.0000  bottom
+C10       100nF            C_0603_HandSoldering               116.6700   -81.3800    0.0000  bottom
+C11       100nF            C_0603_HandSoldering               104.2000   -70.4000    0.0000  bottom
+C12       100nF            C_0603_HandSoldering               135.5300   -77.8100  180.0000  bottom
+C13       1nF              C_0603_HandSoldering               110.7000   -84.0000   90.0000  bottom
+D1        RX               LED_0603                           140.2000   -79.6250  270.0000  bottom
+D2        TX               LED_0603                           140.2478   -72.6860  270.0000  bottom
+D3        L                LED_0603                           140.3478   -65.3860  270.0000  bottom
+D4        ON               LED_0603                           140.4478   -57.5860  270.0000  bottom
+R1        10K              R_0603_HandSoldering               131.4000   -95.2000   90.0000  bottom
+R2        1K               R_0603_HandSoldering               138.4478   -80.0860  270.0000  bottom
+R3        1K               R_0603_HandSoldering               138.4478   -72.6860   90.0000  bottom
+R4        1K               R_0603_HandSoldering               138.4478   -65.4860   90.0000  bottom
+R5        1K               R_0603_HandSoldering               138.5478   -57.4860   90.0000  bottom
+R6        1K               R_0603_HandSoldering               142.1300   -76.2800  180.0000  bottom
+R7        22R              R_0603_HandSoldering               108.2000   -65.4000   90.0000  bottom
+R8        22R              R_0603_HandSoldering               106.6000   -65.4000   90.0000  bottom
+R9        10K              R_0603_HandSoldering               133.4000   -55.3000    0.0000  bottom
+R10       91R              R_0603_HandSoldering               113.0400   -56.4400    0.0000  bottom
+R11       10K              R_0603_HandSoldering               107.8000   -84.8000  180.0000  bottom
+R12       100K             R_0603_HandSoldering               107.8000   -82.9000    0.0000  bottom
+R13       10K              R_0603_HandSoldering               106.3000   -88.2000   90.0000  bottom
+R14       100K             R_0603_HandSoldering               108.4000   -88.2000   90.0000  bottom
+R15       10K              R_0603_HandSoldering                95.2000   -74.9000  180.0000  bottom
+R16       10K              R_0603_HandSoldering                95.1000   -73.0000  180.0000  bottom
+R17       68               R_0603_HandSoldering                68.7000   -79.7750  180.0000  bottom
+R18       33               R_0603_HandSoldering                68.7000   -77.8250    0.0000  bottom
+R19       11k              R_0603_HandSoldering               103.8000   -78.4000  180.0000  bottom
+R20       10K              R_0603_HandSoldering               123.1000   -87.0000   90.0000  bottom
+R21       10K              R_0603_HandSoldering               111.3000   -79.9000  270.0000  bottom
+R22       10K              R_0603_HandSoldering               109.8000   -76.7000  180.0000  bottom
+U1        ATmega32U4-AU    TQFP-44_10x10mm_Pitch0.8mm         127.2000   -72.3000    0.0000  bottom
+U2        LMV358           SOIC-8_3.9x4.9mm_Pitch1.27mm       117.1500   -87.4500    0.0000  bottom
+U3        AD623            SOIC-8_3.9x4.9mm_Pitch1.27mm       103.8000   -74.2000    0.0000  bottom
+P3        USB_B-Micro      USB_Micro-B                        118.2000   -53.4000  180.0000  top
+P7        USB_B-Mini       USB_Mini-B                          92.6000   -95.6000   90.0000  top
+P8        USB_B-Micro-3.0  USB_Micro-30                       104.8000   -96.2000    0.0000  top
+## End
