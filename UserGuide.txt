@@ -1,0 +1,40 @@
+USBCableCracker User Guide
+
+The USBCableCracker is a instrument that measures the resistance of different types of USB cables.
+And it is based on Arduino Leonardo.
+
+Table of Contents:
+1, how to use USBCableCracker
+2, how does it work
+3, hacking with it
+
+How to use USBCableCracker
+1) plug usb cable for power
+    The power plug is P3 under the 1602 LCD, on the upper side of the PCB. Do not connect charger or computer with any other USB port, it will brake the board.
+    And the cable to be test should be connect with P1 and any port on the bottom side.
+
+2) select power or data cables to test.
+   Turn the switch to left to measure two power wires(ie. VCC, GND), or turn the switch right to measure two data wire(D-, D+).
+
+3) get result (and crack the cable if it is a bad cable)
+    Since USBCableCracker test the serial resistance of both VCC GND wires, or D+ D- wires. The result is normally two times compare with single wire.
+    In my opinion, to support two cables for proper charging with the current of 1A (to charge a 2000mA/h cellphone battery in 2 hours).
+    In USB.org standard, it is at lease requires 4.4 V voltage for proper operation (7.3.2 Bus Timing/Electrical Characteristics and 7.2.2 Voltage Drop Budget). Assume that the charger output is 5.0V, with 1A charging current, the total resistance should lower than 0.6 Ohm.
+    Some output of charger is up to 5.25V, thus, for proper operation to charge device with 1A current, the resistance of single wire should be no more than 0.425 Ohm.
+    D- and D+ cable does not have to support high current, so it is vary possible that cable manufacturer make these two wires with thinner wire. In my opinion, it is good to use thinner wires, thinner wires is easy to bend.
+
+
+2, How does it work
+    The device measures the voltage drop with constant current.
+    AREF is the internal 2.56V voltage reference provided by Atmega32u4. REFO in U2B is buffered output of AREF. Current through the cable is Vrefo/(R17 + R18 + Resistance of cable).
+    Since cable resistance is small and can be ignored, the current is 2.56V / 101 Ohm = 25.34 mA, U2A and U3 has the same function of amplify the voltage drop by 10, the output voltage of U2A and U3 is Vrefo - 10 * (voltage drop of cable).
+    And the output voltage (A0) is send to Pin 36 of Atmega32u4, which is an ADC pin. The mcu measure the voltage and convert it to digital value according to the function ADC_value = input_voltage * 1023 / reference_voltage. The voltage reference is selected to 2.56V internal voltage reference mentioned before.
+    ADC_value = (2.56 / (2.56 - (10 * (33 + 68) * resistance)) ) * 1023 / 2.56
+    Thus, the resistance between R17 and R18 is : resistance = 101 / 10 - (101 * ADC_value) / 10230
+
+3, hack with it
+    This board is based on Arduino Leonardo, you can do what ever you want with arduino IDE.
+    I had made it a temperature sensor with DS18B20.
+
+
+
