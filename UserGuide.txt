@@ -28,7 +28,7 @@ How to use USBCableCracker
     The device measures the voltage drop with constant current.
     AREF is the internal 2.56V voltage reference provided by Atmega32u4. REFO in U2B is buffered output of AREF. Current through the cable is Vrefo/(R17 + R18 + Resistance of cable).
     Since cable resistance is small and can be ignored, the current is 2.56V / 101 Ohm = 25.34 mA, U2A and U3 has the same function of amplify the voltage drop by 10, the output voltage of U2A and U3 is Vrefo - 10 * (voltage drop of cable).
-    And the output voltage (A0) is send to Pin 36 of Atmega32u4, which is an ADC pin. The mcu measure the voltage and convert it to digital value according to the function ADC_value = input_voltage * 1023 / reference_voltage. The voltage reference is selected to 2.56V internal voltage reference mentioned before.
+    And the output voltage (A0) is send to Pin 36 of Atmega32u4, which is an ADC pin. The MCU measure the voltage and convert it to digital value according to the function ADC_value = input_voltage * 1023 / reference_voltage. The voltage reference is selected to 2.56V internal voltage reference mentioned before.
     ADC_value = (2.56 / (2.56 - (10 * (33 + 68) * resistance)) ) * 1023 / 2.56
     Thus, the resistance between R17 and R18 is : resistance = 101 / 10 - (101 * ADC_value) / 10230
 
