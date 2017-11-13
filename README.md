@@ -1,9 +1,9 @@
 USBcablecracker
 ============
-USB Cable Cracker is a devive that measures the resistance of USB cable.
+USB Cable Cracker is a device that measures the resistance of USB cable.
 It measures the serial resistance of VCC + GND or D+ or D-.
 And if you are not satisfy with the resistance, you can crack the cable by yourself.
-It is a Arduino Leonardo competitable board, with some extend pins. 
+It is a Arduino Leonardo compatible board, with some extend pins.
 
 Schematic
 ------------
@@ -15,8 +15,8 @@ BOM
 
 PCB
 ------------
-![](https://github.com/danfei/USBcablecracker/raw/master/images/v1f.png)
-![](https://github.com/danfei/USBcablecracker/raw/master/images/v1b.png)
+![](https://github.com/szdiy/USBcablecracker/raw/master/images/v1f.png)
+![](https://github.com/szdiy/USBcablecracker/raw/master/images/v1b.png)
 
 Photo
 ------------
@@ -33,5 +33,5 @@ r@szdiy.org
 Where to buy
 ------------
 
-[schem]:https://github.com/danfei/USBcablecracker/raw/master/hardware/USBcablecracker.pdf
-[bom]:https://github.com/danfei/DIYduino/raw/master/hardware/manufature/USBcablecracker_bom.csv
+[schem]:https://github.com/szdiy/USBcablecracker/raw/master/hardware/USBcablecracker.pdf
+[bom]:https://github.com/szdiy/USBcablecracker/raw/master/hardware/manufature/USBcablecracker_bom.csv
